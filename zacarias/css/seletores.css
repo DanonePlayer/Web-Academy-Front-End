@@ -1,0 +1,44 @@
+/* Universal */
+*{
+    color: red;
+}
+
+/* Tag */
+a{
+    color: rgb(0, 0, 0);
+}
+
+/* Agrupamento */
+a,p{
+    font-weight: bold;
+}
+
+/* Classe */
+.link_class_blue{
+    color: blue;
+}
+
+/* ID */
+#link_id_size{
+    font-size: 30px;
+}
+
+/* Atributo */
+a[href="http://www.google.com"]{
+    background-color: pink; 
+}
+
+/* Combinação */
+p.p1{
+    color: yellow;
+}
+
+/* Exemplo de Combinação Descendente */
+p span{
+    font-style: italic;
+}
+
+/* Combinação mais próxima */
+p+h1{
+    font-size: 2rem;
+}
